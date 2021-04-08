@@ -1,0 +1,19 @@
+{
+  "name": "uni-app.js",
+  "version": "0.0.0",
+  "description": "用于学习uni-app，测试和记录一些笔记等。",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keep-study/uni-app.js.git"
+  },
+  "author": "Keep-Study",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keep-study/uni-app.js/issues"
+  },
+  "homepage": "https://github.com/keep-study/uni-app.js#readme",
+  "dependencies": {
+    "@hai2007/algorithm": "^0.5.1",
+    "@hai2007/tool": "^0.6.4"
+  }
+}

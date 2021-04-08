@@ -1,0 +1,42 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home"
+		},
+		{
+			"path": "pages/example"
+		},
+		{
+			"path": "pages/laboratory"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app.js",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"position": "bottom", // top 值仅微信小程序支持
+		"selectedColor": "#00ff00",
+		"list": [{
+				"text": "主页",
+				"pagePath": "pages/home",
+				"iconPath": "static/home-unselected.png",
+				"selectedIconPath": "static/home-selected.png"
+			},
+			{
+				"text": "例子",
+				"pagePath": "pages/example",
+				"iconPath": "static/example-unselected.png",
+				"selectedIconPath": "static/example-selected.png"
+			},
+			{
+				"text": "实验室",
+				"pagePath": "pages/laboratory",
+				"iconPath": "static/laboratory-unselected.png",
+				"selectedIconPath": "static/laboratory-selected.png"
+			}
+		]
+	}
+}
